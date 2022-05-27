@@ -20,3 +20,6 @@ background: #F6F6F6;
 .portfolio-subtitle a{
     color: #070707;
 }
+.portfolio-item{
+    width: 100%;
+}
