@@ -1,0 +1,37 @@
+.banner{
+    margin-top: 39px;
+    padding-bottom:104px ;
+}
+.banner-contant{
+    display: grid;
+    grid-template-columns: 123px 155px 65px;
+    grid-gap: 297px;
+    margin-bottom: 49px;
+}
+.banner-title{
+    margin: 0;
+
+    max-width: 123px;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    text-transform: capitalize;
+}
+.banner-subtitle{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #070707;
+    padding-top: 50px;
+}
+.banner-lang{
+    writing-mode:vertical-rl;
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 50px;
+
+
+}
+

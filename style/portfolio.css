@@ -1,0 +1,22 @@
+.portfolio{
+text-align: center;
+padding: 112px;
+background: #F6F6F6;
+}
+.portfolio-title{
+    margin-bottom: 47px;
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+.portfolio-subtitle{
+    display: block;
+    margin: 44px 0 99px 0;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    font-style: normal;
+}
+.portfolio-subtitle a{
+    color: #070707;
+}

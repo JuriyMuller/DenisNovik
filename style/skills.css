@@ -1,0 +1,78 @@
+.skills{
+    text-align: center;
+    padding:91px 0 110px 0 ;
+}
+.skills-title{
+    margin-bottom: 69px;
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+.skills-desc{
+    margin-bottom: 83px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+
+}
+.skills-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 85px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    
+}
+.skill-item-photoshop,.skill-item-illustrator,.skill-item-after-effects,.skill-item-figma{
+    position: relative;
+    padding: 112px 48px 66px 47px; 
+}
+.skill-item-photoshop::before{
+    position: absolute;
+    content: url("../img/photoshop.svg");
+    top:0;
+    left: 39px;
+}
+.skill-item-photoshop::after{
+    position: absolute;
+    content: url("../img/stars.svg");
+    top: 180px;
+    left: 1px;
+}
+.skill-item-illustrator::before{
+    position: absolute;
+    content: url("../img/illustrator.svg");
+    top:0;
+    left: 39px;
+}
+.skill-item-illustrator::after{
+    position: absolute;
+    content: url("../img/stars(1).svg");
+    top: 180px;
+    left: 1px;
+}
+.skill-item-after-effects::before{
+    position: absolute;
+    content: url("../img/after-effects.svg");
+    top:0;
+    left: 39px;
+}
+.skill-item-after-effects::after{
+    position: absolute;
+    content: url("../img/stars.svg");
+    top: 180px;
+    left: 1px;
+}
+.skill-item-figma::before{
+    position: absolute;
+    content: url("../img/figma.svg");
+    top:0;
+    left: 55px;
+}
+.skill-item-figma::after{
+    position: absolute;
+    content: url("../img/stars.svg");
+    top: 180px;
+    left: 1px;
+}
